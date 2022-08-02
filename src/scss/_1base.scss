@@ -1,0 +1,39 @@
+/* -----------BASE------------------------------- */
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+[class*="__container"] {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/* ------------CETKA------------------------------ */
+/* PC * 1087px*970px*/
+@media (max-width: 1087px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+
+/* TABLET *991.98px*750px*/
+@media (max-width: 991.98px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+
+/* MOBILE *767.98px*max-width: none;*/
+@media (max-width: 767.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
+
+/* MOBILE  small*479.98px*/
+@media (max-width: 479.98px) {
+}

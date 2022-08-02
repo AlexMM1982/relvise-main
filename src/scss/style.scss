@@ -1,0 +1,30 @@
+@import '0reset';
+@import '1base';
+@import '2burger';
+@import '3header';
+@import '4ibg';
+
+/* ------------MAIN ------------------*/
+.main {
+    padding: 100px 0 0 0;
+    flex: 1 1 auto;
+}
+
+.section__text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section__text p {
+    margin: 0 0 20px 0;
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding: 70px 0 0 0;
+    }
+}
+
+
+
+
